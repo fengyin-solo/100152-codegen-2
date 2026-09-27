@@ -33,3 +33,19 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .error-text { color: #b42318; }
+.ok-text { color: #067647; }
+.modal-mask { position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45); display: flex; align-items: center; justify-content: center; z-index: 20; }
+.modal-card { background: #fff; border-radius: 10px; padding: 16px 18px; width: 420px; max-width: 92vw; max-height: 86vh; overflow: auto; display: flex; flex-direction: column; gap: 10px; }
+.modal-card.wide { width: 760px; }
+.modal-card h3 { margin: 0; font-size: 15px; }
+.modal-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.form-item span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+.form-item input, .form-item select, .form-item textarea, .filter-item input, .filter-item select { border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 13px; width: 100%; }
+.filter-item input, .filter-item select { width: auto; }
+.form-hint { color: var(--muted); font-size: 12px; margin: 0; }
+.receipt-list { margin: 0; padding-left: 18px; font-size: 13px; display: flex; flex-direction: column; gap: 4px; }
+.detail-table th { width: 120px; background: #f8fafc; }
+.detail-section { margin-top: 14px; background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+.detail-section h3 { margin: 0 0 8px; font-size: 14px; }
+.attachment-list { margin: 0 0 8px; padding-left: 18px; font-size: 13px; display: flex; flex-direction: column; gap: 4px; }
+.upload-item { max-width: 320px; }

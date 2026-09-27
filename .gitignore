@@ -85,3 +85,6 @@ desktop.ini
 *.db
 *.pid
 *.seed
+
+# 环境备案现场照片附件
+backend/uploads/
