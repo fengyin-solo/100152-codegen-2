@@ -14,6 +14,7 @@ from app.routers import calibration as router_calibration
 from app.routers import transmission as router_transmission
 from app.routers import power as router_power
 from app.routers import layout as router_layout
+from app.routers import environment as router_environment
 from app.routers import inspection as router_inspection
 from app.routers import fault as router_fault
 from app.routers import sparepart as router_sparepart
@@ -25,4 +26,4 @@ from app.routers import contract as router_contract
 from app.routers import settlement as router_settlement
 from app.routers import training as router_training
 
-ROUTERS = [router_station, router_sensor, router_observation, router_quality, router_calibration, router_transmission, router_power, router_layout, router_inspection, router_fault, router_sparepart, router_metainfo, router_alarm, router_comm, router_service, router_contract, router_settlement, router_training]
+ROUTERS = [router_station, router_sensor, router_observation, router_quality, router_calibration, router_transmission, router_power, router_layout, router_environment, router_inspection, router_fault, router_sparepart, router_metainfo, router_alarm, router_comm, router_service, router_contract, router_settlement, router_training]

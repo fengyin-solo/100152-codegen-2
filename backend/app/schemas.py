@@ -125,6 +125,18 @@ class LayoutEntry(BaseModel):
     field_6: str | None = None  # 审批人员
     field_7: str | None = None  # 规划状态
 
+class EnvironmentEntry(BaseModel):
+    """探测环境变化备案明细结构。"""
+
+    field_0: str | None = None  # 备案编号
+    field_1: str | None = None  # 所属站点
+    field_2: str | None = None  # 干扰源类型
+    field_3: str | None = None  # 发现时刻
+    field_4: str | None = None  # 遮挡方位
+    field_5: str | None = None  # 上报人
+    field_6: str | None = None  # 核实结论
+    field_7: str | None = None  # 备案状态
+
 class InspectionEntry(BaseModel):
     """巡检单明细结构。"""
 

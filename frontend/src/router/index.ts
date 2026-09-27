@@ -9,6 +9,8 @@ const Calibration = () => import('@/views/calibration/index.vue')
 const Transmission = () => import('@/views/transmission/index.vue')
 const Power = () => import('@/views/power/index.vue')
 const Layout = () => import('@/views/layout/index.vue')
+const Environment = () => import('@/views/environment/index.vue')
+const EnvironmentDetail = () => import('@/views/environment/detail.vue')
 const Inspection = () => import('@/views/inspection/index.vue')
 const Fault = () => import('@/views/fault/index.vue')
 const Sparepart = () => import('@/views/sparepart/index.vue')
@@ -32,6 +34,8 @@ const router = createRouter({
     { path: '/transmission', name: 'transmission', component: Transmission },
     { path: '/power', name: 'power', component: Power },
     { path: '/layout', name: 'layout', component: Layout },
+    { path: '/environment', name: 'environment', component: Environment },
+    { path: '/environment/:id', name: 'environment-detail', component: EnvironmentDetail },
     { path: '/inspection', name: 'inspection', component: Inspection },
     { path: '/fault', name: 'fault', component: Fault },
     { path: '/sparepart', name: 'sparepart', component: Sparepart },
